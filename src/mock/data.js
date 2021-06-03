@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Federico Cesar', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,48 +10,39 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Federico Cesar',
+  subtitle: 'Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Me apasiona la tecnología, y tengo mucha ambición por crecer personal y profesionalmente. Soy responsable, atento, honesto y por sobre todo colaborador. Me considero un gran profesional a la hora de trabajar en equipo y poder desempeñar mi rol según las necesidades del mismo.',
+  paragraphTwo: 'Comence mi trayecto como desarrollador en 2019 en Acámica. La carrera de Desarrollador Web Full Stack se centro principalmente en generar las bases de conocimiento de HTML5, CSS3 y JS, como asi tambien los fundamentos y principios de NodeJS y MySQL.',
+  paragraphThree: 'Por mi cuenta con el tiempo me propuse expander mis conocimientos logrando desarrollarme profesionalmente en lenguajes como PL/SQL, APEX, y Python entre otros. Como asi tambien lograr dominar herramientas como GIT.',
+  resume: 'https://fcesar033.github.io/resume/CV-FedericoCesar.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'bmo.jpeg',
+    title: 'Puzzle Game',
+    info: 'Fue uno de mis primeros proyectos',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://fcesar033.github.io/PuzzleGame/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'pixelart.jpeg',
+    title: 'Pixel Art',
+    info: 'Tecnicas Js',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://fcesar033.github.io/Pixel-Art/', // if no repo, the button will not show up
   },
 ];
 
