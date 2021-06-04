@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: '¡Hola! soy ',
   name: 'Federico Cesar',
-  subtitle: 'Developer',
+  subtitle: 'FullStack Developer',
   cta: '',
 };
 
@@ -50,7 +50,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'fcesar.dev@gmail.com',
 };
 
 // FOOTER DATA
@@ -59,22 +59,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/_fedecesar',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/federicocesar/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/fcesar033',
     },
   ],
 };
